@@ -1,0 +1,11 @@
+.pic{
+    background-image: url("/images/toys.jpg");
+    background-color: blue;
+    min-height: 300px;
+    min-width: 800px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
