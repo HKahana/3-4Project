@@ -1,5 +1,5 @@
 .pic{
-    background-image: url("/public/images/toys.jpg");
+    background-image: url("/public/toys.jpg");
     background-color: blue;
     min-height: 300px;
     min-width: 800px;
