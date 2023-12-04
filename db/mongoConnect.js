@@ -7,6 +7,6 @@ async function main() {
   mongoose.set('strictQuery' , false);
 
   // await mongoose.connect(`mongodb+srv://${config.userDb}:${config.passDb}@cluster0.ceovg2j.mongodb.net/project`);
-  await mongoose.connect(`mongodb://localhost:27017/project`);
+  await mongoose.connect(`mongodb+srv://${config.userDb}:${config.passDb}@cluster0.ceovg2j.mongodb.net/.net//project`);
   console.log("mongo connected");
 }
